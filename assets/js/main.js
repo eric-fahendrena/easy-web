@@ -4,7 +4,7 @@ fetch('../../php/pagesCreation.php', {
 .then(response => response.text())
 .then(data => {
    alert(data);
-  // document.getElementById('output').innerHTML = data;
+   document.getElementById('output').innerHTML = data;
 })
 .catch(error => {
    alert(error);

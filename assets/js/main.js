@@ -1,4 +1,4 @@
-fetch('../../php/pagesCreation.php', {
+fetch('../php/pagesCreation.php', {
    method: 'GET'
 })
 .then(response => response.text())

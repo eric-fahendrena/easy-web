@@ -3,6 +3,7 @@ fetch('../../php/pagesCreation.php', {
 })
 .then(response => response.text())
 .then(data => {
+   document.getElementById('output').innerHTML = data;
    alert(data);
 })
 .catch(error => {
